@@ -1,10 +1,10 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "/Users/sonlam/Documents/workspaces/deTronEvent/deTronEventContract/contracts/DeTronEvent.sol": {
-      "lastModificationDate": 1664880710073,
-      "contentHash": "fceb3ecccd646c29fe9e8bb3e5fc7f6a",
-      "sourceName": "contracts/DeTronEvent.sol",
+    "/home/tien/skymate/tron-smart-contract/contracts/MarketPlaceSkymate.sol": {
+      "lastModificationDate": 1680704360761,
+      "contentHash": "69549fc18cf778cfe00e06282f9123b4",
+      "sourceName": "contracts/MarketPlaceSkymate.sol",
       "solcConfig": {
         "version": "0.8.6",
         "settings": {
@@ -34,11 +34,50 @@
         "^0.8.6"
       ],
       "artifacts": [
-        "DeTronEvent",
-        "IDeTronEvent",
+        "Counters",
+        "ITRC721",
+        "ITRC721Receiver",
+        "MarketPlaceSkymate",
+        "SafeMath"
+      ]
+    },
+    "/home/tien/skymate/tron-smart-contract/contracts/SkymateNft.sol": {
+      "lastModificationDate": 1680704360761,
+      "contentHash": "2be61772f12b9ef229eed78a2ae9971a",
+      "sourceName": "contracts/SkymateNft.sol",
+      "solcConfig": {
+        "version": "0.8.6",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "storageLayout"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.6"
+      ],
+      "artifacts": [
         "ITRC721",
         "ITRC721Receiver",
         "SafeMath",
+        "SkymateNft",
         "TRC721"
       ]
     }
