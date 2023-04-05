@@ -392,7 +392,7 @@ contract SkymateNft is TRC721 {
         owner = msg.sender;
         name = "Skymate";
         symbol = "SKM";
-        setUri("http://localhost");
+        setUri("https://nft-api.skymate.life/");
     }
 
     modifier onlyOwner() {
