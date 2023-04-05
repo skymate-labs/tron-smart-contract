@@ -68,3 +68,12 @@ Nile testnet
 ```sh
 tronbox migrate --reset --network nile
 ```
+
+
+## Tron smart contract address
+
+### Nile testnet
+
+Skymate NFT: `TKcUJkTcpUHAgjvgYH5hBPn8mBrx28Nc8K`
+
+Skymate NFT Marketplace: `TXSLT5VsJKVyWeXuBAWfeBNfqgsJmYeHVU`
