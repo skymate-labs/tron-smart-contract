@@ -36,10 +36,7 @@ module.exports = {
       src: "./contracts",
   },
   networks: {
-    goerli: {
-      url: `https://goerli.infura.io/v3/${alchemyApiKey}`,
-      accounts: [privateKey]
-    },
+    goerli: getChainConfig("goerli"),
     mainnet: getChainConfig("mainnet"),
   }
 };
